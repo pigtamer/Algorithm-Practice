@@ -46,7 +46,7 @@ template <typename T> std::deque<T> mergeSortter(std::deque<T>& InputDeque) {
 	deque<T> lhs = mergeSortter(slicer(InputDeque, 0, MID_POSITION));
 	deque<T> rhs =
 		mergeSortter(slicer(InputDeque, MID_POSITION, InputDeque.size()));
-    
+
 	return merge(lhs, rhs);
 }
 
