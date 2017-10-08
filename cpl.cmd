@@ -1,1 +1,2 @@
-cl /EHsc %1.cpp 
+cls
+cl /EHsc %1.cpp
